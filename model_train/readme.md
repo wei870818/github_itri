@@ -4,9 +4,9 @@
 2. 在NVIDIA網站安裝CUDA和cuDNN，CUDA version:12.4，cuDnn version:9.1.0
 
 
-3. 把 C:\Users<username>\Downloads\cuda\bin 資料夾內檔案複製到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin
-   把 C:\Users<username>\Downloads\cuda\include 資料夾內檔案複製到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include
-   把 C:\Users<username>\Downloads\cuda\lib\x64 資料夾內檔案複製到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\lib\x64
+3. 把 C:\Users<username>\Downloads\cuda\bin 資料夾內檔案複製到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin  
+   把 C:\Users<username>\Downloads\cuda\include 資料夾內檔案複製到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include  
+   把 C:\Users<username>\Downloads\cuda\lib\x64 資料夾內檔案複製到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\lib\x64  
 
 
 4. 到pytorch官網安裝pytorch，選擇對應到CUDA 12.4版本的pytorch
