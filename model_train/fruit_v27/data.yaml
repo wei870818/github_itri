@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 23
+names: ['Agaricus bisporus', 'Cucumber', 'Pleurotus eryngii', 'apple', 'avocado', 'banana', 'beef', 'cabbage', 'cantaloupe', 'carrot', 'corn', 'garlic', 'ginger-root', 'lemon', 'mango', 'onion', 'orange', 'pineapple', 'pork', 'potato', 'strawberry', 'tofu', 'tomato']
+
+roboflow:
+  workspace: fruit-picture
+  project: fruit-hwsmp
+  version: 41
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fruit-picture/fruit-hwsmp/dataset/41
