@@ -25,12 +25,12 @@
 8. 下載fruit_v27資料夾
 
 
-9. 可以使用以下兩種方法來訓練yolo模型
-   (1) 訓練yolo在cmd中cd到訓練位置資料夾後輸入yolo detect train data=/data.yaml model=yolov8n.pt epochs=100 imgsz=640 device=0 --save_json=True來做，檔案儲存在run資料夾中
+9. 可以使用以下兩種方法來訓練yolo模型  
+   (1) 訓練yolo在cmd中cd到訓練位置資料夾後輸入yolo detect train data=/data.yaml model=yolov8n.pt epochs=100 imgsz=640 device=0 --save_json=True來做，檔案儲存在run資料夾中  
    (2) 使用資料夾中的yolov8_train_model.py來訓練模型
 
 
-參考資料: https://henry870603.medium.com/%E9%87%8D%E6%8A%95%E9%96%8B%E5%A7%8B%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E7%94%A8yolov8%E7%82%AB%E7%B7%B4%E8%87%AA%E5%B7%B1%E7%9A%84%E8%B3%87%E6%96%99%E9%9B%86-ab5425746bd0
-CUDA 12.4:   https://developer.nvidia.com/cuda-12-4-0-download-archive
-cuDnn 9.1.0: https://developer.nvidia.com/cudnn-9-1-0-download-archive
-pytorch: https://pytorch.org/
+參考資料: https://henry870603.medium.com/%E9%87%8D%E6%8A%95%E9%96%8B%E5%A7%8B%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E7%94%A8yolov8%E7%82%AB%E7%B7%B4%E8%87%AA%E5%B7%B1%E7%9A%84%E8%B3%87%E6%96%99%E9%9B%86-ab5425746bd0  
+CUDA 12.4:   https://developer.nvidia.com/cuda-12-4-0-download-archive  
+cuDnn 9.1.0: https://developer.nvidia.com/cudnn-9-1-0-download-archive  
+pytorch: https://pytorch.org/  
