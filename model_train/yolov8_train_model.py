@@ -26,7 +26,7 @@ def main():
     )
 
     # 3. 驗證模型（可選）
-    model.val(data=data_yaml_path)
+    model.val(data=data_yaml_path)123
 
     # 4. 匯出模型
     # model.export(format='onnx')
