@@ -6,7 +6,7 @@
 }
 
 .container {
-  background-image: url("/static/images/frame-16.png");
+  background-image: url("/static/images/frame-19.png");
   background-size: 98% 98%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@
   display: none;
   position: absolute;
   top: 40px;
-  left: -200px;
+  left: -150px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;

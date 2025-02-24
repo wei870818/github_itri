@@ -9,7 +9,7 @@ startAutoSlide();
 function startAutoSlide() {
     setInterval(() => {
         plusSlides(1);
-    }, 6000); // 每6秒切換一次
+    }, 10000); // 每10秒切換一次
 }
 
 // 切換控制
